@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divinity 2 Character Generator", "Divinity 2 Character Generator.csproj", "{7C1EE05B-81DC-4824-A793-53641F7FA0D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C1EE05B-81DC-4824-A793-53641F7FA0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1EE05B-81DC-4824-A793-53641F7FA0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1EE05B-81DC-4824-A793-53641F7FA0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1EE05B-81DC-4824-A793-53641F7FA0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D27C83B-E59E-4682-8903-E55285D1625C}
+	EndGlobalSection
+EndGlobal

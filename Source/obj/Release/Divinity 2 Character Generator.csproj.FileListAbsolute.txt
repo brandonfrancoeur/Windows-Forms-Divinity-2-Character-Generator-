@@ -1,0 +1,13 @@
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\bin\Release\Divinity 2 Character Generator.exe.config
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\bin\Release\Divinity 2 Character Generator.exe
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\bin\Release\Divinity 2 Character Generator.pdb
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Release\Divinity_2_Character_Generator.Properties.Resources.resources
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Release\Divinity 2 Character Generator.csproj.GenerateResource.cache
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Release\Divinity 2 Character Generator.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Release\Divinity 2 Character Generator.exe
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Release\Divinity 2 Character Generator.pdb
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\bin\Release\Divinity 2 Character Generator.exe.manifest
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\bin\Release\Divinity 2 Character Generator.application
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Release\Divinity 2 Character Generator.exe.manifest
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Release\Divinity 2 Character Generator.application
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Release\Divinity_2_Character_Generator.DivinityCharGen.resources

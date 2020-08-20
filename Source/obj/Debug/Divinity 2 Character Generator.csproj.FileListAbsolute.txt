@@ -1,0 +1,10 @@
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\bin\Debug\Divinity 2 Character Generator.exe.config
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\bin\Debug\Divinity 2 Character Generator.exe
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\bin\Debug\Divinity 2 Character Generator.pdb
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Debug\Divinity 2 Character Generator.csprojAssemblyReference.cache
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Debug\Divinity_2_Character_Generator.Form1.resources
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Debug\Divinity_2_Character_Generator.Properties.Resources.resources
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Debug\Divinity 2 Character Generator.csproj.GenerateResource.cache
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Debug\Divinity 2 Character Generator.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Debug\Divinity 2 Character Generator.exe
+C:\Users\Brandon\source\repos\Divinity 2 Character Generator\obj\Debug\Divinity 2 Character Generator.pdb
