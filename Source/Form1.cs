@@ -12,13 +12,15 @@ namespace Divinity_2_Character_Generator
 {
     public partial class DivinityCharGen : Form
     {
+        //hold the character's data
         Data charData;
+
         public DivinityCharGen()
         {
             InitializeComponent();
         }
 
-       
+        //generate the character
         private void generate_Click(object sender, EventArgs e)
         {
             charData = new Data();
@@ -26,7 +28,7 @@ namespace Divinity_2_Character_Generator
             charData.instrument = inst;
             getOrigin(charData);
 
-            if (presetBox.Checked)
+            if (presetBox.Checked)//user selects premade class
             {
                 presetClass(charData);
                 generateTags(charData);
@@ -35,7 +37,7 @@ namespace Divinity_2_Character_Generator
                 skillThreeBox.Text = charData.skill3;
                 classBox.Text = charData.preset;
             }
-            else
+            else //generate all of the data from scratch
             {
                 distributeAtts(charData);
                 generateCivils(charData);
@@ -46,6 +48,8 @@ namespace Divinity_2_Character_Generator
                 skillTwoBox.Text = charData.skills[1];
                 skillThreeBox.Text = charData.skills[2];
             }
+
+            //print out the results to the text boxes
             strengthBox.Text = charData.strength.ToString();
             finesseBox.Text = charData.finesse.ToString();
             intelligenceBox.Text = charData.intelligence.ToString();
@@ -81,6 +85,8 @@ namespace Divinity_2_Character_Generator
             talentTwoBox.Text = charData.Talent2;
             talentThreeBox.Text = charData.Talent3;
         }
+
+        //select random element from a given array
         public String getRand(String[] myArray)
         {
             Random r = new Random();
@@ -308,12 +314,16 @@ namespace Divinity_2_Character_Generator
                     break;
             }
         }
+
+        //generate tags at random
         public  void generateTags(Data charData)
         {
             charData.tag1 = getRand(charData.tags);
             charData.tags = removeElement(charData.tags, charData.tag1);
             charData.tag2 = getRand(charData.tags);
         }
+
+        //randomly select an origin for the character
         public void getOrigin(Data charData)
         {
             String ori = getRand(charData.origins);
@@ -408,6 +418,8 @@ namespace Divinity_2_Character_Generator
 
             }
         }
+
+        //simple remove element from array function
         public static String[] removeElement(String[] array, String element)
         {
             String[] newArr= null;
@@ -430,6 +442,8 @@ namespace Divinity_2_Character_Generator
 
             return newArr;
         }
+
+        //merge two seperate arrays if needed
         public static String[] arrayMerge(String[] array1, String[] array2)
         {
             int size = array1.Length + array2.Length;
@@ -446,6 +460,8 @@ namespace Divinity_2_Character_Generator
             }
             return result;
         }
+
+        //select random skills
         public String[] selectSkills(String[] skillArray)
         {
             String[] skillSet = new String[3];
@@ -459,6 +475,8 @@ namespace Divinity_2_Character_Generator
 
             return skillSet;
         }
+
+        //randomly distribute the alloted attribute points
         public void distributeAtts(Data charData)
         {
             for (int i = 0; i < 3; i++)
@@ -544,6 +562,8 @@ namespace Divinity_2_Character_Generator
                 }
             }
         }
+
+        //generate random talents based on the character's combat abilities
         public void generateTalent(Data charData)
         {
             String cont = "false";
@@ -603,6 +623,8 @@ namespace Divinity_2_Character_Generator
             }
             charData.Talent3 = talent;
         }
+
+        //generate random skills based on the character's attributes
         public void generateSkills(Data charData)
         {
             String[] array1 = null;
@@ -739,6 +761,8 @@ namespace Divinity_2_Character_Generator
                 charData.skills = selectSkills(array1);
             }
         }
+
+        //generate random civil abilities
         public void generateCivils(Data charData)
         {
             String civil = getRand(charData.civil_abilities);
@@ -778,6 +802,7 @@ namespace Divinity_2_Character_Generator
 
     }
 
+    //store all of the character's data
     public class Data
     {
         public String[] origins = {"The Red Prince", "Sebille", "Ifan", "Lohse",
@@ -820,6 +845,7 @@ namespace Divinity_2_Character_Generator
         public String[] instruments = { "Bansuri", "Tambura", "Oud", "Cello" };
 
         public String instrument;
+       
         //store the talents
         public String Talent1;
         public String Talent2;
